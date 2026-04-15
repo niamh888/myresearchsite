@@ -34,6 +34,16 @@ nav a {
 
 }
 
+nav a:hover {
+    text-decoration: underline;
+    text-shadow: #344b84 0px 0px 5px;
+    color: #e7ec6a;
+}
+
+nav ul {
+    list-style: none;
+}
+
 main {
     max-width: 1200px;
     margin: 2rem auto;
@@ -84,6 +94,16 @@ button:hover {
 section {
     margin-bottom: 2rem;
 }
+
+
+/* .noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
 
 <!-- Responsive Design -->
 
