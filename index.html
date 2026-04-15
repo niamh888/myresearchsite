@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    /* <a class="skip-link" href="#main-content">Skip to main content</a> <!-- accessibility for keyboard users --> */
+<a class="skip-link" href="#main-content">Skip to main content</a> <!-- accessibility for keyboard users -->
     <nav class="site-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Main Navigation">
         <div class="container">
             <a class="navbar-brand" href="index.html" aria-label="Niamh St John Lynch - Home">Niamh St John Lynch</a>
@@ -68,19 +68,52 @@
         </div>     
     </nav>
 
-    <main>
-        <section tab-index="0" id="about">
-            <h2>About Me</h2>
-            <p>I am a PhD student at DkIT, focusing on [brief description of research area]. My background is in [your
-                background], and I am passionate about [your passions related to research].</p>
-            <button onclick="location.href='#contact'">Get in Touch</button>
+    <main id="main-content">
+        <section class="stats-strip" aria-label="Research Statistics">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h3>5+ Publications</h3>
+                        <p>Peer-reviewed articles in top journals</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>3+ Conferences</h3>
+                        <p>Presentations at international conferences</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>7+ Standards Committee Participation</h3>
+                        <p>Active involvement in standards development</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>2 Ongoing Research Projects</h3>
+                        <p>Active research projects on healthcare design</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>2 Industry Support Projects</h3>
+                        <p>Collaborative projects with industry partners</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Guest Speaker Engagements</h3>
+                        <p>Presentations and talks at industry events</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
 
         <section tab-index="1" id="welcome">
             <h2>Improving Healthcare through Design Research</h2>
             <p>This site presents an opportunity to learn about my PhD research with DkIT.</p>
-            <button onclick="location.href='#research'">Explore My Research</button>
-            <button onclick="location.href='#standards'">View Standards Development</button>
+            <button onclick="location.href='#research'">Explore Research</button>
+            <button onclick="location.href='#standards'">Standards Development</button>
+        </section>
+
+        <section tab-index="0" id="about">
+            <h2>About Me</h2>
+            <p>I am a PhD researcher student at DkIT, focusing on Medical Device Regulatory Requirements for Artificial Intelligence-enabled Medical Devices. My background is in AI, Software Engineering and Medical Devices.  
+                I am passionate about improving healthcare through design research, and I am dedicated to advancing the field of medical device regulation to ensure patient safety and innovation.</p>
+            <button onclick="location.href='#About'">Learn More</button>
+            <button onclick="location.href='#contact'">Get in Touch</button>
         </section>
 
         <section tab-index="2" id="research">
