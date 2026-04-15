@@ -18,7 +18,7 @@ header {
     text-align: center;
 }
 
-nav  {
+nav {
     background-color: #444;
     padding: 1rem 0;
     text-align: left;
@@ -63,7 +63,7 @@ a {
     text-decoration: none;
     padding-left: 1rem;
     font-weight: bold;
-    font-weight:200;
+    font-weight: 200;
 }
 
 a:hover {
@@ -86,6 +86,7 @@ button {
     transition: background-color 0.3s ease;
     font-weight: bold;
 }
+
 button:hover {
     background-color: #e7ec6a;
     color: #333;
@@ -93,6 +94,103 @@ button:hover {
 
 section {
     margin-bottom: 2rem;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+div.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display-flex;
+
+}
+
+.navbar {
+    background-color: #9cd71c;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #9cd71c;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-shadow: #344b84 0px 0px 5px;
+    color: #e7ec6a;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color:#555
+    background-color: transparent;
+}
+
+.navbar li {
+    margin: 0 1rem;
+    color: #e9be30
+}
+
+.navbar a:focus {
+    outline: 2px solid #f0ea78;
+    outline-offset: 2px;
+}
+
+.navbar-collapse {
+    display: none;
+    flex-grow: 1;
+    flex-basis: 100%
+    align-items: center;
+}
+
+.navbar-toggle {
+    display: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.nav-item {
+    color: #9cd71c;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    text-shadow: #344b84 0px 0px 5px;
+    color: #e7ec6a;
+}
+
+.nav-link {
+    color: #9cd71c;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -105,9 +203,7 @@ section {
     "wdth" 100;
 } */
 
-<!-- Responsive Design -->
-
-@media (max-width: 768px) {
+< !-- Responsive Design -->@media (max-width: 768px) {
     nav {
         text-align: center;
     }
