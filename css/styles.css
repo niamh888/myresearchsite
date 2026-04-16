@@ -182,6 +182,17 @@ div.container {
     display: flex;
     align-items: center;
 }
+.page-header {
+    margin-bottom: 2rem;
+    container: center;
+    color: #f9f6f6;
+    margin-top: 2rem
+  
+
+
+    /* color: #333; */
+}
+
 
 
 /* .noto-sans-<uniquifier> {
